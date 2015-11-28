@@ -1,0 +1,19 @@
+{
+  "name": "chrome-app-bt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "webpack": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.9"
+  }
+}

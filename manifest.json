@@ -1,0 +1,15 @@
+{
+    "name": "Zeemote JS1H",
+    "version": "0.1",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "bluetooth": {
+        "socket": true,
+        "uuids": [ "00001101-0000-1000-8000-00805f9b34fb", "00001105-0000-1000-8000-00805f9b34fb" ]
+    }
+}
+
